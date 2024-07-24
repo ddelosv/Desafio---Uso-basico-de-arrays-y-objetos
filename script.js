@@ -59,6 +59,7 @@ for (var i = 0; i < traumatologia.length; i++) {
 }
 
 document.getElementById("Traumatologia").innerHTML = TablaTraumatologia;
+document.getElementById("titulotraumatologia").innerHTML =" Tabla Traumatologia";
 
 var Tabladental = "<tr> <th>Hora</th> <th>Especialista</th> <th>Paciente</th> <th>rut</th> <th>previsión</th> </tr>";
 for (var i = 0; i < dental.length; i++) {
@@ -74,6 +75,7 @@ for (var i = 0; i < dental.length; i++) {
 }
 
 document.getElementById("dental").innerHTML = Tabladental;
+document.getElementById("tituloDental").innerHTML =" Tabla Dental";
 
 var Tablaradiologia = "<tr> <th>Hora</th> <th>Especialista</th> <th>Paciente</th> <th>rut</th> <th>previsión</th> </tr>";
 for (var i = 0; i < radiologia.length; i++) {
@@ -89,6 +91,7 @@ for (var i = 0; i < radiologia.length; i++) {
 }
 
 document.getElementById("radiologia").innerHTML = Tablaradiologia;
+document.getElementById("tituloRadiologia").innerHTML =" Tabla Radiologia";
 
 
 
